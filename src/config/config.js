@@ -1,0 +1,11 @@
+
+const Constants = {
+    FIRST_PLAYER_ID: 1,
+    SECOND_PLAYER_ID: 2,
+    FIRST_PLAYER_FIRST_PIT_ID: 0,
+    FIRST_PLAYER_BIG_PIT_ID: 6,
+    SECOND_PLAYER_FIRST_PIT_ID: 7,
+    SECOND_PLAYER_BIG_PIT_ID: 13,
+};
+
+export default Constants;
