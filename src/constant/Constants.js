@@ -1,4 +1,3 @@
-
 const Constants = {
     FIRST_PLAYER_ID: 1,
     SECOND_PLAYER_ID: 2,

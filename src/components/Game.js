@@ -2,9 +2,7 @@ import {useEffect, useState} from "react";
 import api from '../config/axiosConfig';
 import LittlePit from "./LittlePit";
 import BigPit from "./BigPit";
-import Constants from "../config/config";
-import {Paper} from "@mui/material";
-import {Box, Typography} from "@mui/joy";
+import Constants from "../constant/Constants";
 import Player from "./Player";
 import Information from "./Information";
 
