@@ -22,12 +22,11 @@ For the frontend, I separate components as I can. There are 6 components:
 + `LittlePit` is for showing little pits of the players with the stone numbers.
 + `Player` is for showing the side of the players on the board.
 
-I also use some config files:
-+ axiosConfig for setting the base url of the server.
-+ config for constant values.
+I also add a axiosConfig file for setting the base url of the server.
+Additionally, for constant values, I add Constants file.
 
 
-## API Design ##
+## UI Design ##
 
 When you first start the application, the default initial values for the game will be set and the page will be seen as below.
 
