@@ -15,7 +15,7 @@ function Game() {
     const [isFinished, setIsFinished] = useState(false);
 
     async function fetchData() {
-        const response = await api.get(`/api/v1/startGame`);
+        const response = await api.post(`/api/v1/startGame`);
         fillStatesFromServerData(response);
     }
 
@@ -31,7 +31,7 @@ function Game() {
     }
 
     const handleClick = async (id) => {
-        const response = await api.get(`/api/v1/makeMove/${id}`);
+        const response = await api.put(`/api/v1/makeMove/${id}`);
         fillStatesFromServerData(response);
 
         setPlayerId(response.data.playerInTurn.id);
